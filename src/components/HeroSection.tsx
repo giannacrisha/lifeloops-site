@@ -108,7 +108,7 @@ export function HeroSection() {
     className="group relative px-8 py-4 bg-[#699669] text-white rounded-full overflow-hidden transition-all duration-300 hover:shadow-xl hover:shadow-[#699669]/30 hover:scale-105"
   >
     <span className="relative z-10 flex items-center gap-2">
-      Join Waitlist
+      Take Survey
       <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
     </span>
     <motion.div
