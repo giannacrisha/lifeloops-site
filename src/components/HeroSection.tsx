@@ -104,7 +104,7 @@ export function HeroSection() {
   transition={{ duration: 0.8, delay: 0.6 }}
 >
   <button
-    onClick={() => window.open("https://forms.gle/your-google-form-link", "_blank")}
+    onClick={() => window.open("https://forms.gle/5XvZn945j5GanNz7A", "_blank")}
     className="group relative px-8 py-4 bg-[#699669] text-white rounded-full overflow-hidden transition-all duration-300 hover:shadow-xl hover:shadow-[#699669]/30 hover:scale-105"
   >
     <span className="relative z-10 flex items-center gap-2">
