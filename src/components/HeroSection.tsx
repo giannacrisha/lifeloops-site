@@ -98,27 +98,27 @@ export function HeroSection() {
           systems.
         </motion.p>
 
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.6 }}
-        >
-          <button
-            onClick={scrollToWaitlist}
-            className="group relative px-8 py-4 bg-[#699669] text-white rounded-full overflow-hidden transition-all duration-300 hover:shadow-xl hover:shadow-[#699669]/30 hover:scale-105"
-          >
-            <span className="relative z-10 flex items-center gap-2">
-              Join Waitlist
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </span>
-            <motion.div
-              className="absolute inset-0 bg-[#557a55]"
-              initial={{ x: "-100%" }}
-              whileHover={{ x: 0 }}
-              transition={{ duration: 0.3 }}
-            />
-          </button>
-        </motion.div>
+<motion.div
+  initial={{ opacity: 0, y: 30 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.8, delay: 0.6 }}
+>
+  <button
+    onClick={() => window.open("https://forms.gle/your-google-form-link", "_blank")}
+    className="group relative px-8 py-4 bg-[#699669] text-white rounded-full overflow-hidden transition-all duration-300 hover:shadow-xl hover:shadow-[#699669]/30 hover:scale-105"
+  >
+    <span className="relative z-10 flex items-center gap-2">
+      Join Waitlist
+      <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+    </span>
+    <motion.div
+      className="absolute inset-0 bg-[#557a55]"
+      initial={{ x: "-100%" }}
+      whileHover={{ x: 0 }}
+      transition={{ duration: 0.3 }}
+    />
+  </button>
+</motion.div>
 
         {/* Looping progress bar animation */}
         <motion.div
